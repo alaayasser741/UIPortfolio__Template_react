@@ -9,7 +9,7 @@ export const Portfolio__title = styled.h2`
 `;
 export const Img__gallery = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 `;
 export const Img__box = styled.div``;
 export const Portfolio__img = styled.img`

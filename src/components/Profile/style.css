@@ -1,0 +1,66 @@
+.Profile__content {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-block-end: 6rem;
+}
+
+.myProfile,
+.someSkills {
+    flex-basis: 50%;
+    text-align: start;
+}
+
+h2 {
+    margin-block-end: 3rem;
+    font-size: 2.5rem;
+}
+
+.Profile__Info div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-block-end: .8rem;
+
+}
+
+.Profile__Info div span:nth-child(1) {
+    font-weight: bolder;
+
+}
+
+
+
+.someSkills p {
+    color: #777;
+    margin-block-end: 2rem;
+}
+
+.Skill__Name {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: .5rem;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-color: #eb5424;
+}
+
+@media (width<768px) {
+    .Profile__content {
+        flex-direction: column;
+    }
+
+    .Profile__Info div {
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items:unset;
+    }
+    .Skill__Name{
+        width: 100%;
+    }
+}

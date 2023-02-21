@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const About__Section = styled.div`
-
   background: url(images/about-bg.jpg) center/cover no-repeat;
 `;
 export const About__Container = styled.div`
   position: relative;
   min-height: 600px;
+  padding-block:3rem;
 `;
 export const About__info = styled.div`
   width: 45%;
@@ -15,6 +15,12 @@ export const About__info = styled.div`
   top: 50%;
   transform: translateY(-50%);
   text-align: start;
+  @media (width < 768px) {
+    width: 100%;
+    position: relative;
+    transform: unset;
+
+  }
 `;
 export const About__Span = styled.span`
   color: #eb5424;
@@ -26,4 +32,3 @@ export const About__disc = styled.p`
   margin-block-end: 1rem;
   line-height: 1.8;
 `;
-

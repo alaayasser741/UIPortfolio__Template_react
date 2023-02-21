@@ -1,0 +1,37 @@
+.social__section{
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    @media(width<768px){
+    grid-template-columns: 1fr;
+  
+    }
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #fff;
+    fill: #fff;
+}
+.social a span{
+    display: block;
+    text-align: start;
+}
+.--facebook{
+    background-color: #3b5998;
+
+}
+.--twitter{
+    background-color:  #1da1f2;
+
+}
+.--instagram{
+    background-color: #c32aa3;
+
+}
